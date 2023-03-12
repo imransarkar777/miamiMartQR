@@ -8,19 +8,32 @@ body {
     background-color: white;
 }
 
+
+
 .firstSection {
     padding-top: 30px;
+    padding-bottom: 40px;
     margin: auto;
     width: 75%;
-    height: 800px;
+    /* height: 800px; */
     background-color: #7A5447;
     /* align-items: center; */
     text-align: center;
 }
 
+
+.logocontainer {
+    margin: 20px 0 20px 0;
+    background-color: white;
+    padding: 20px 0;
+    position: relative;
+    height: 600px;
+
+}
+
 .logo {
     margin: 0 auto;
-    height: 400px;
+    height: 560px;
     width: 100%;
     overflow-y: hidden;
     position: relative;
@@ -30,25 +43,18 @@ body {
 .logo img {
     position: relative;
     /* add this line to enable relative positioning */
-    top: -224px;
+    top: -330px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     overflow-y: hidden;
 }
 
-.logocontainer {
-    margin: 20px 0 20px 0;
-    background-color: white;
-    padding: 20px 0;
-    position: relative;
-
-}
 
 .line1 {
     position: absolute;
     width: 6px;
-    height: 400px;
+    height: 560px;
     background-color: black;
     z-index: 1;
     left: 8%;
@@ -58,7 +64,7 @@ body {
 .line2 {
     position: absolute;
     width: 6px;
-    height: 400px;
+    height: 560px;
     background-color: black;
     z-index: 1;
     right: 8%;
@@ -66,5 +72,113 @@ body {
 
 
 .firstText {
+    font-family: 'Open Sans', serif;
     color: white;
+    text-align: left;
+    padding: 10px;
+    /* font-weight: 700; */
+
+}
+
+.all {
+    padding-bottom: 15px;
+    font-size: 40px;
+
+
+}
+
+.our {
+    font-size: 20px;
+}
+
+.btn {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* ---------------------------------------- */
+
+.secondSection {
+    margin: auto;
+    width: 75%;
+}
+
+.openingHours {
+    display: flex;
+}
+
+.icons {
+    padding: 20px 20px 0 20px;
+}
+
+.title {
+    font-family: 'Open Sans';
+    padding: 20px;
+    font-weight: 700;
+    opacity: .5;
+    width: 100%;
+}
+
+
+.location {
+    flex-direction: column;
+    /* padding-left: 120px; */
+}
+
+.time p {
+    font-family: 'Open Sans', serif;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 8px 40px 0 20px;
+}
+
+.regTexts {
+    /* display: flex; */
+    padding-left: 80px;
+    font-family: 'Open Sans', serif;
+    font-weight: 500;
+}
+
+
+.about {
+    flex-direction: column;
+}
+
+.brands {
+    font-size: 200px;
+    padding-bottom: 200px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    /* padding: 50px; */
+    /* color: aqua; */
+
+}
+
+
+.fb a {
+    color: #3D5A9C;
+}
+
+.insta a {
+    color: #A22C4F;
+}
+
+
+
+
+
+
+
+
+
+
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
 }
